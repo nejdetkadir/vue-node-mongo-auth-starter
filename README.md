@@ -1,0 +1,1 @@
+# vue-node-mongo-auth-starter
