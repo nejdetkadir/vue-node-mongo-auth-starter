@@ -1,5 +1,7 @@
 # vue-node-mongo-auth-starter
-A sample app showcases how to create authentication operations on VueJS & NodeJS (ExpressJS) with MongoDB
+![cover](doc/cover.jpg)
+
+**A sample app showcases how to create authentication operations on VueJS & NodeJS (ExpressJS) with MongoDB**
 
 # LICENSE
 ```
