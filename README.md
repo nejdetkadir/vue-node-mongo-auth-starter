@@ -3,6 +3,9 @@
 
 **A sample app showcases how to create authentication operations on VueJS & NodeJS (ExpressJS) with MongoDB**
 
+## Preview
+![preview](doc/preview.gif)
+
 # LICENSE
 ```
 MIT License
