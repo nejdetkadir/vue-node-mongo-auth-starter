@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+import account from './modules/account'
 
 Vue.use(Vuex)
 
@@ -10,10 +11,8 @@ axios.defaults.withCredentials = true
 /* eslint-disable no-new */
 const store = new Vuex.Store({
   modules: {
-  },
-  state: {
-    key: 'val'
-  }
+    account
+  } 
 })
 
 export default async function init() {

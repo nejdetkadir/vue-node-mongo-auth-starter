@@ -5,7 +5,7 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 export default function init(store) {
-  console.log(store.state.key);
+  console.log(store.state);
   return new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
