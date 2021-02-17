@@ -26,7 +26,7 @@ export default function init(store) {
         name: 'register',
         component: Register,
         beforeEnter(to, from, next) {
-          if (store.state.account.user) return next('/home')
+          if (store.state.account.user) return next('/')
           return next()
         }
       },
@@ -35,7 +35,7 @@ export default function init(store) {
         name: 'login',
         component: Login,
         beforeEnter(to, from, next) {
-          if (store.state.account.user) return next('/home')
+          if (store.state.account.user) return next('/')
           return next()
         }
       },
