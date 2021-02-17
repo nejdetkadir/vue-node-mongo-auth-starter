@@ -27,10 +27,10 @@ const account = {
       await dispatch(actions.FETCH_SESSION)
     },
     async [actions.REGISTER_USER](store, user) {
-      return axios.post('/account/register', { user })
+      return axios.post('/account/register', user)
     },
     async [actions.LOGIN]({ commit }, credentials) {
-      const user = await axios.post('/account/session', credentials)
+      const user = await axios.post('/account/session', credentials.user)   
       commit(mutations.SET_USER, user.data)
     },
     async [actions.LOGOUT]({ commit }) {
