@@ -14,7 +14,7 @@ const { errors } = require('celebrate');
 const User = require('./models/user')
 
 // routes
-const testRouter = require('./routes/test');
+const accountRouter = require('./routes/account');
 
 // mongodb
 const {mongoose} = require('./helpers/db')
@@ -65,7 +65,7 @@ app.all('*', (req, res, next) => {
   next()
 })
 
-app.use('/test', testRouter);
+app.use('/account', accountRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
