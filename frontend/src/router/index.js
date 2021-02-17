@@ -7,7 +7,6 @@ import Login from '../views/Login.vue'
 Vue.use(VueRouter)
 
 export default function init(store) {
-  console.log(store.state);
   return new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
