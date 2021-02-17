@@ -1,8 +1,7 @@
-<template>
-  <div>
-    <h1>Register</h1>
-    <AuthForm/>
-  </div>
+<template lang="pug">
+  div.mt-5
+    h1.text-center Sing up
+    AuthForm
 </template>
 
 <script>

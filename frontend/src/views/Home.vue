@@ -1,8 +1,8 @@
-<template>
-  <div>
-    <h1>Home page</h1>
-    <button @click.prevent="doLogout">Logout</button>
-  </div>
+<template lang="pug">
+  div.mt-5
+    h1.text-center Home Page
+    .text-center
+      button.btn.btn-primary(@click.prevent="doLogout") Logout
 </template>
 
 <script>

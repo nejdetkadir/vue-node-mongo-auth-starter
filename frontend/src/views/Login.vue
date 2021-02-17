@@ -1,8 +1,7 @@
-<template>
-  <div>
-    <h1>Login</h1>
-    <AuthForm :is-login="true"/>
-  </div>
+<template lang="pug">
+  div.mt-5
+    h1.text-center Sing in
+    AuthForm(:is-login="true")
 </template>
 
 <script>
