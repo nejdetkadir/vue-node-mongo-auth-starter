@@ -16,5 +16,6 @@ const store = new Vuex.Store({
 })
 
 export default async function init() {
+  await store.dispatch('account/init')
   return store
 }
