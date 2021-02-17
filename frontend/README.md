@@ -4,6 +4,11 @@
 ```
 npm install
 ```
+### Environment variables
+Create a file named ".env" in this path and fill its contents as follows.
+```dotenv
+VUE_APP_BASE_PATH=XXX
+```
 
 ### Compiles and hot-reloads for development
 ```
